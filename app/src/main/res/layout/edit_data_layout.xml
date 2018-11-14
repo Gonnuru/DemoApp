@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,11 +10,11 @@
 
     <EditText
         android:id="@+id/edit_name"
-        android:layout_width="271dp"
+        android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="61dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
         android:background="@drawable/edittext_style"
         android:hint="@string/student_name"
         android:singleLine="true"
@@ -22,11 +22,11 @@
 
     <EditText
         android:id="@+id/edit_rollNo"
-        android:layout_width="271dp"
+        android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="151dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/edittext_style"
         android:hint="@string/student_rollno"
         android:singleLine="true"
@@ -34,11 +34,12 @@
 
     <EditText
         android:id="@+id/edit_branch"
-        android:layout_width="271dp"
+        android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="242dp"
+
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/edittext_style"
         android:hint="@string/student_branch"
         android:singleLine="true"
@@ -46,32 +47,36 @@
 
     <EditText
         android:id="@+id/edit_email"
-        android:layout_width="271dp"
+        android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="209dp"
+
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/edittext_style"
         android:hint="@string/student_email"
         android:inputType="textEmailAddress"
         android:singleLine="true"
         android:textAlignment="center" />
 
+
     <Button
         android:id="@+id/edit_UpdateStudent"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="107dp"
         android:background="@drawable/btn_green_bg"
         android:text="@string/update_student"
+
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
         android:textAllCaps="false"
-        android:layout_weight="4"
         android:textColor="@color/colorWhite"
         android:textSize="18sp"
         android:textStyle="bold"
         android:onClick="update"/>
 
 
-</RelativeLayout>
+
+
+</LinearLayout>

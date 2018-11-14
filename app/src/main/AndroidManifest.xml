@@ -18,11 +18,14 @@
         </activity>
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".AddStudentActivity"
-            android:label="Add Student"/>
+            android:label="Add Student"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".ListViewActivity"
-            android:label="Students Data"/>
+            android:label="Students Data"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".EditDataActivity"
-            android:label="Update Students Data"/>
+            android:label="Update Students Data"
+            android:parentActivityName=".ListViewActivity"/>
     </application>
 
 </manifest>
