@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="add_student">Add Student</string>
+    <string name="view_student">View Student</string>
+    <string name="delete_student">Delete</string>
+    <string name="update_student">Update</string>
+    <string name="student_name">Name</string>
+    <string name="student_rollno">Roll NO</string>
+    <string name="student_branch">Branch</string>
+    <string name="student_email">Email</string>
+</resources>
