@@ -10,10 +10,10 @@
     <Button
         android:id="@+id/addStudent"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_height="56dp"
+        
+        android:layout_marginTop="250dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="233dp"
         android:background="@drawable/btn_bg"
         android:fontFamily="sans-serif"
         android:text="@string/add_student"
@@ -24,10 +24,9 @@
     <Button
         android:id="@+id/viewStudents"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_height="56dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="215dp"
+        android:layout_marginTop="350dp"
         android:background="@drawable/btn_bg"
         android:fontFamily="sans-serif"
         android:text="@string/view_student"
