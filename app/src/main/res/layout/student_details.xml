@@ -40,12 +40,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Cse" />
+
                 <TextView
                     android:id="@+id/mailID"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="sampath@gmail.com" />
+
             </LinearLayout>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_delete"
+                android:layout_marginLeft="70dp"/>
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
